@@ -1,0 +1,303 @@
+.canvas {
+    position: relative;
+    border: 1px solid white;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .diagonal-line {
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(-75deg);
+    position: relative;
+    top: 136px;
+  }
+  
+  .line1 {
+    width: 74px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 230px;
+  }
+  
+  .line2 {
+    width: 174px;
+    height: 2px;
+    background-color: white;
+    position: relative;
+    top: 36px;
+    left: 126px;
+  }
+  
+  .line3 {
+    width: 258px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(90deg);
+    position: relative;
+    top: 164px;
+    left: 50px;
+  }
+  
+  .line4 {
+    width: 258px;
+    height: 2px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 162px;
+    left: 75px;
+  }
+  
+  .line-h {
+    width: 192px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 125px;
+    left: -50px;
+  }
+  
+  .line-h::before,
+  .line-h::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .line-h::before {
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent white;
+    top: -4.5px;
+    left: -1.5px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-h::after {
+    border-width: 5px 7px 5px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -4.5px;
+    right: 0px;
+    transform: rotate(-180deg);
+  }
+  .line-h-top {
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    top: 28px;
+    left: 39px;
+  }
+  
+  .line-l {
+    width: 255px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 158px;
+    left: 28px;
+  }
+  
+  .line-l::before,
+  .line-l::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .line-l::before {
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent white;
+    top: -4.5px;
+    left: -1.8px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-l::after {
+    border-width: 5px 7px 5px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -4.5px;
+    right: -1px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-j {
+    width: 65px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 253px;
+    left: 90px;
+  }
+  
+  .line-j::before,
+  .line-j::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .line-j::before {
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent white;
+    top: -4.5px;
+    left: -1.8px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-j::after {
+    border-width: 5px 7px 5px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -4.5px;
+    right: -1px;
+    transform: rotate(-180deg);
+  }
+  .line-j-top {
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    top: 218.5px;
+    left: 115px;
+  }
+  
+  .line-t {
+    width: 58px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 55px;
+    left: 201px;
+  }
+  
+  .line-t::before,
+  .line-t::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .line-t::before {
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent white;
+    top: -4.5px;
+    left: -1.8px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-t::after {
+    border-width: 5px 7px 5px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -4.5px;
+    right: -1px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-cl {
+    width: 196px;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 184px;
+    left: 132px;
+  }
+  
+  .line-cl::before,
+  .line-cl::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+  }
+  
+  .line-cl::before {
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent white;
+    top: -4.5px;
+    left: -1.8px;
+    transform: rotate(-180deg);
+  }
+  
+  .line-cl::after {
+    border-width: 5px 7px 5px 0;
+    border-color: transparent white transparent transparent;
+    bottom: -4.5px;
+    right: -1px;
+    transform: rotate(-180deg);
+  }
+  
+  .linet-t-cl-top {
+    width: 15px;
+    height: 1px;
+    background-color: white;
+    position: relative;
+    top: 84px;
+    left: 222.5px;
+  }
+  
+  .btn-container {
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .input-container span {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+  .input-container input {
+    width: 24px;
+  }
+  
+  .input-container .inp-1{
+    position: absolute;
+    bottom: 150px;
+    left: 11px;
+  }
+  
+  .input-container .inp-2{
+    position: absolute;
+    bottom: 24px;
+    left: 93px;
+  }
+  
+  .input-container .inp-3{
+    position: absolute;
+    bottom: 150px;
+    left: 124px;
+  }
+  
+  .input-container .inp-4{
+    position: absolute;
+    left: 156px;
+    top: 12px;
+  }
+  
+  
+  .input-container .inp-5{
+    position: absolute;
+    bottom: 220px;
+    left: 214px;
+  }
+  
+  .input-container .inp-6{
+    position: absolute;
+    bottom: 90px;
+    left: 214px;
+  }
