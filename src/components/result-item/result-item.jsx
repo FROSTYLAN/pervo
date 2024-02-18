@@ -1,6 +1,6 @@
 import './styles.css'
 
-export const ResultItem = ({ text, subText, value }) => {
+export const ResultItem = ({ text, subText, value, space, units }) => {
     return (
         <div style={{display: 'flex', position: 'relative' }}>
             <section>
@@ -14,11 +14,12 @@ export const ResultItem = ({ text, subText, value }) => {
             <section
                 style={{
                     position: 'absolute',
-                    left: '48px'
+                    left: space || '48px',
+                    whiteSpace: 'nowrap'
                 }}
                 type='text'
             >
-                {value}
+                {String(value) + ' ' + (units || '')}
             </section>
         </div>
     )
